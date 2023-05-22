@@ -1,0 +1,19 @@
+.main-page-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px; /* Espacio entre las columnas */
+  }
+  
+  .products-column div {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .products-column img{
+    width:  20%;
+  }
+  
+  .trolley-column {
+    /* Estilos para la columna del carro */
+  }
+  
